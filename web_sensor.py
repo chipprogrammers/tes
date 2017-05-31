@@ -15,5 +15,5 @@ def index():
     return template('raphael.2.1.0.min.js')
 @route('/justgage')
 def index():
-    return template('justgage.1.0.1.min.js')
-run(host='0.0.0.0', port=80)
+    return template('justgage-2.1.4.min.js')
+run(host='0.0.0.0', port=8080)
